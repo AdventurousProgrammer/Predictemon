@@ -6,4 +6,6 @@ You will need the following packages to use this program, just install them with
 
 flask
 
+1. Run this program on your localhost.
 
+2. start off at the / or /login page, and that will redirect you to the /home page, and it is self explanatory for running the app from there
