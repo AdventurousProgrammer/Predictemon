@@ -18,7 +18,7 @@ app.config['SECRET_KEY'] = 'tepiglover'
 
 '''
 TODO: 
-This method is to use the Pokemon Prediction Model Brad or Jennifer used to predict
+This method is to use the Pokemon Prediction Model Brad or Julia used to predict
 the winner of the pokemon battle
 
 Their model may not rely on the actual names of the pokemon, so you will have to do some
