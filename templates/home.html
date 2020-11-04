@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel='stylesheet' href="{{ url_for('static', filename='css/home.css')}}">
+
     <meta charset="UTF-8">
     <title>Home</title>
     {% if not champion %}
@@ -8,6 +10,9 @@
     {% else %}
         <h1> Congratulations {{ champion }} won!</h1>
     {% endif %}
+    
+</head>
+<body>
     <div class="content-section">
         <form method="POST" action="">
             <fieldset class="form-group">
@@ -19,9 +24,5 @@
             </fieldset>
         </form>
     </div>
-    
-</head>
-<body>
-
 </body>
 </html>
